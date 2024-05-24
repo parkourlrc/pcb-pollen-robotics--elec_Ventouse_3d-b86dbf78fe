@@ -313,16 +313,24 @@
       ""
     ],
     [
-      "c57a72cd-52be-4705-ba68-0f6c998aa8eb",
-      "Driver A"
-    ],
-    [
       "239737a7-c0cb-470f-b9a6-0e81d1fbfa6a",
       "Ethercat"
     ],
     [
       "e95ae265-6212-4dd0-9ded-65f9e093863e",
       "Power Supply"
+    ],
+    [
+      "c57a72cd-52be-4705-ba68-0f6c998aa8eb",
+      "Driver A"
+    ],
+    [
+      "c441c941-c48c-43c7-b09e-0ddf5e50858e",
+      "Driver B"
+    ],
+    [
+      "3915da6a-829c-45be-a39c-8b34c38d014c",
+      "Driver C"
     ]
   ],
   "text_variables": {}

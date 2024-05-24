@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "carte Ventouse_3d")
+    (title "Poulpe_2d")
     (date "2024-05-20")
     (rev "A1")
     (company "Pollen Robotics")
@@ -3215,7 +3215,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 91.44 76.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00416cc8-7d20-41d7-909e-1aecadc39040)
-    (property "Reference" "C10" (at 90.17 74.295 0)
+    (property "Reference" "C26" (at 90.17 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u 63V" (at 95.25 78.74 0)
@@ -3247,7 +3247,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "C10") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
       (project "power_supply"
@@ -3261,7 +3261,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 55.88 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01765994-7f02-41cd-955a-fbb02b6ae37d)
-    (property "Reference" "#PWR0102" (at 55.88 102.87 0)
+    (property "Reference" "#PWR057" (at 55.88 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 101.6 0)
@@ -3277,7 +3277,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
       (project "power_supply"
@@ -3291,7 +3291,7 @@
   (symbol (lib_name "VBUS_1") (lib_id "power:VBUS") (at 91.44 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01b0fca1-7f32-4228-8123-42411ab0b1c4)
-    (property "Reference" "#PWR0107" (at 91.44 148.59 0)
+    (property "Reference" "#PWR070" (at 91.44 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 91.44 139.7 0)
@@ -3307,7 +3307,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
       (project "power_supply"
@@ -3321,7 +3321,7 @@
   (symbol (lib_id "Regulator_Linear:AZ1117-3.3") (at 236.22 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02950cc1-450a-4d77-bc5f-a142b30432be)
-    (property "Reference" "U2" (at 236.22 62.23 0)
+    (property "Reference" "U3" (at 236.22 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AZ1117-3.3" (at 236.22 64.77 0)
@@ -3345,7 +3345,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
       (project "power_supply"
@@ -3359,7 +3359,7 @@
   (symbol (lib_id "Diode:SMAJ24A") (at 161.29 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09f92240-caf1-4177-a547-b9eb9f265dd3)
-    (property "Reference" "D2" (at 162.56 115.57 90)
+    (property "Reference" "D5" (at 162.56 115.57 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TVS diode" (at 163.83 119.38 90)
@@ -3385,7 +3385,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "D2") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
       (project "power_supply"
@@ -3399,7 +3399,7 @@
   (symbol (lib_name "VBUS_1") (lib_id "power:VBUS") (at 41.91 171.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d0f6154-f7ed-42b5-b5f4-71580d57a616)
-    (property "Reference" "#PWR051" (at 41.91 167.64 0)
+    (property "Reference" "#PWR076" (at 41.91 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 41.91 176.53 0)
@@ -3415,7 +3415,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
       (project "power_supply"
@@ -3429,7 +3429,7 @@
   (symbol (lib_id "Device:R_Small") (at 212.09 120.65 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0efb4245-85fb-44e0-9cd3-47d0a96630b2)
-    (property "Reference" "R27" (at 208.28 118.745 0)
+    (property "Reference" "R22" (at 208.28 118.745 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20k" (at 208.915 121.92 0)
@@ -3461,7 +3461,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "R27") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -3470,7 +3470,7 @@
   (symbol (lib_id "power:GND") (at 138.43 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 120bacbf-7749-4e4d-9006-6d59bcc1a2dc)
-    (property "Reference" "#PWR020" (at 138.43 130.81 0)
+    (property "Reference" "#PWR063" (at 138.43 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 129.54 0)
@@ -3486,7 +3486,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
       (project "power_supply"
@@ -3500,7 +3500,7 @@
   (symbol (lib_name "VBUS_1") (lib_id "power:VBUS") (at 60.96 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 122e76e9-2681-4b6e-a528-6e69f3b8f1d8)
-    (property "Reference" "#PWR02" (at 60.96 105.41 0)
+    (property "Reference" "#PWR058" (at 60.96 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 60.96 96.52 0)
@@ -3516,7 +3516,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
       (project "power_supply"
@@ -3530,7 +3530,7 @@
   (symbol (lib_id "Device:C_Small") (at 109.22 165.1 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17512eb7-8069-4f30-867b-e0530371099d)
-    (property "Reference" "C37" (at 105.41 163.83 0)
+    (property "Reference" "C34" (at 105.41 163.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 102.87 167.64 0)
@@ -3548,7 +3548,7 @@
     (property "Width" "0.9" (at 109.22 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Capa 0603" (at 109.22 165.1 0)
+    (property "Description" "Capa 0402" (at 109.22 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Man." "Eurocircuit" (at 109.22 165.1 0)
@@ -3562,7 +3562,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "C37") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
       (project "power_supply"
@@ -3576,7 +3576,7 @@
   (symbol (lib_id "Device:R_Small") (at 91.44 149.86 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 177a779c-4ce2-4e6e-a5d2-63ea514338e0)
-    (property "Reference" "R23" (at 89.535 148.5899 0)
+    (property "Reference" "R29" (at 89.535 148.5899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "75k" (at 89.535 151.1299 0)
@@ -3594,7 +3594,7 @@
     (property "Width" "0.9" (at 91.44 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Res. 0603" (at 91.44 149.86 0)
+    (property "Description" "Res. 0402" (at 91.44 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Man." "Eurocircuit" (at 91.44 149.86 0)
@@ -3608,7 +3608,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "R23") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -3617,7 +3617,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 157.48 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1804b134-a161-4c07-a202-632c5a91408c)
-    (property "Reference" "#PWR047" (at 157.48 87.63 0)
+    (property "Reference" "#PWR053" (at 157.48 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 86.36 0)
@@ -3633,7 +3633,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
       (project "power_supply"
@@ -3647,7 +3647,7 @@
   (symbol (lib_id "power:GND") (at 130.81 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b6f2c01-9660-40e9-95a1-5126a336a88b)
-    (property "Reference" "#PWR013" (at 130.81 130.81 0)
+    (property "Reference" "#PWR062" (at 130.81 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 129.54 0)
@@ -3663,7 +3663,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
       (project "power_supply"
@@ -3677,7 +3677,7 @@
   (symbol (lib_id "Device:R_Small") (at 212.09 129.54 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bc7d74c-1330-410c-bd8a-4c53edd4ac7e)
-    (property "Reference" "R28" (at 207.645 127.635 0)
+    (property "Reference" "R24" (at 207.645 127.635 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 208.28 130.81 0)
@@ -3709,7 +3709,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "R28") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -3718,7 +3718,7 @@
   (symbol (lib_name "PWR_FLAG_1") (lib_id "power:PWR_FLAG") (at 179.07 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1cd45147-b75f-4513-86b9-e05dacc80cf4)
-    (property "Reference" "#FLG02" (at 179.07 64.135 0)
+    (property "Reference" "#FLG07" (at 179.07 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 179.07 60.96 0)
@@ -3734,7 +3734,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG07") (unit 1)
         )
       )
       (project "power_supply"
@@ -3748,7 +3748,7 @@
   (symbol (lib_id "power:+5V") (at 215.9 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fb12f92-fb6a-47a8-adec-faf7c2b5fdd1)
-    (property "Reference" "#PWR048" (at 215.9 69.85 0)
+    (property "Reference" "#PWR046" (at 215.9 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 215.9 60.96 0)
@@ -3764,7 +3764,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
       (project "power_supply"
@@ -3778,7 +3778,7 @@
   (symbol (lib_id "Device:R") (at 176.53 130.81 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2757ab8a-a2f3-4111-a5d2-86c38c38cf3b)
-    (property "Reference" "R4" (at 177.8 127 0)
+    (property "Reference" "R28" (at 177.8 127 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "620m" (at 179.07 130.81 0)
@@ -3804,7 +3804,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "R4") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
       (project "power_supply"
@@ -3818,7 +3818,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 138.43 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ef834b1-79aa-4466-a0a2-0e0e0bd731f3)
-    (property "Reference" "C2" (at 133.35 116.84 0)
+    (property "Reference" "C30" (at 133.35 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u 35V" (at 137.16 109.22 0)
@@ -3850,7 +3850,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "C2") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
       (project "power_supply"
@@ -3864,7 +3864,7 @@
   (symbol (lib_id "Device:R_Small") (at 116.84 157.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3232fdc7-79ed-4b2f-863a-376dbf7586df)
-    (property "Reference" "R26" (at 113.03 156.21 90)
+    (property "Reference" "R30" (at 113.03 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "150R" (at 121.92 156.21 90)
@@ -3876,7 +3876,7 @@
     (property "Datasheet" "~" (at 116.84 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Res. 0603" (at 116.84 157.48 0)
+    (property "Description" "Res. 0402" (at 116.84 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Man." "Eurocircuit" (at 116.84 157.48 0)
@@ -3899,7 +3899,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "R26") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
       (project "power_supply"
@@ -3913,7 +3913,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 217.17 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33377556-5cef-439b-8156-01b5297f2203)
-    (property "Reference" "#PWR054" (at 217.17 140.97 0)
+    (property "Reference" "#PWR065" (at 217.17 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.17 139.7 0)
@@ -3929,7 +3929,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -3938,7 +3938,7 @@
   (symbol (lib_id "power:GND") (at 168.91 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3cd7762a-b64c-40e0-a914-0dc6ac7f1dac)
-    (property "Reference" "#PWR028" (at 168.91 143.51 0)
+    (property "Reference" "#PWR068" (at 168.91 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 142.24 0)
@@ -3954,7 +3954,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
       (project "power_supply"
@@ -3968,7 +3968,7 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 259.08 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45603206-af51-40e6-b167-7387961683f0)
-    (property "Reference" "#PWR030" (at 259.08 69.85 0)
+    (property "Reference" "#PWR047" (at 259.08 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 259.08 60.96 0)
@@ -3984,7 +3984,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
       (project "power_supply"
@@ -3998,7 +3998,7 @@
   (symbol (lib_id "Diode:SMAJ24A") (at 168.91 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 517b688d-710b-40c8-bde3-530e647bcd81)
-    (property "Reference" "D3" (at 170.18 115.57 90)
+    (property "Reference" "D6" (at 170.18 115.57 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TVS diode" (at 171.45 119.38 90)
@@ -4024,7 +4024,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "D3") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
       (project "power_supply"
@@ -4038,7 +4038,7 @@
   (symbol (lib_id "Device:R") (at 168.91 130.81 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a2f115f-006d-44ab-bd70-e99513991e25)
-    (property "Reference" "R3" (at 170.18 127 0)
+    (property "Reference" "R27" (at 170.18 127 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "620m" (at 161.29 133.35 0)
@@ -4064,7 +4064,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "R3") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
       (project "power_supply"
@@ -4078,7 +4078,7 @@
   (symbol (lib_name "+5V_2") (lib_id "power:+5V") (at 52.07 171.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d48d555-5504-4f8c-b727-de959ce363fe)
-    (property "Reference" "#PWR052" (at 52.07 167.64 0)
+    (property "Reference" "#PWR077" (at 52.07 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 52.07 176.53 0)
@@ -4094,7 +4094,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
       (project "power_supply"
@@ -4108,7 +4108,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 76.2 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5dcb7f29-b6d4-4d45-ab39-bdbd7e8ae702)
-    (property "Reference" "#FLG03" (at 76.2 74.295 0)
+    (property "Reference" "#FLG08" (at 76.2 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 76.2 71.12 0)
@@ -4124,7 +4124,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG08") (unit 1)
         )
       )
       (project "power_supply"
@@ -4138,7 +4138,7 @@
   (symbol (lib_id "Device:R") (at 161.29 130.81 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f77c813-fa05-4e68-b38c-6432ba0c30d3)
-    (property "Reference" "R2" (at 162.56 127 0)
+    (property "Reference" "R26" (at 162.56 127 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "620m" (at 153.67 133.35 0)
@@ -4164,7 +4164,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "R2") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
       (project "power_supply"
@@ -4178,7 +4178,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 236.22 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 650599cc-1a87-437f-8c2e-a900bd9936dc)
-    (property "Reference" "#PWR032" (at 236.22 90.17 0)
+    (property "Reference" "#PWR055" (at 236.22 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 88.9 0)
@@ -4194,7 +4194,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
       (project "power_supply"
@@ -4208,7 +4208,7 @@
   (symbol (lib_id "Device:R") (at 153.67 130.81 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 669986cb-c63b-4e6f-b318-9df3d02bd7ff)
-    (property "Reference" "R1" (at 154.94 127 0)
+    (property "Reference" "R25" (at 154.94 127 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "620m" (at 146.05 133.35 0)
@@ -4234,7 +4234,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "R1") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
       (project "power_supply"
@@ -4248,7 +4248,7 @@
   (symbol (lib_id "power:GND") (at 176.53 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 682ead39-17ae-415d-9f41-11a5f4a94653)
-    (property "Reference" "#PWR029" (at 176.53 143.51 0)
+    (property "Reference" "#PWR069" (at 176.53 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.53 142.24 0)
@@ -4264,7 +4264,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
       (project "power_supply"
@@ -4278,7 +4278,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 146.05 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6907d88e-f77c-4939-8cec-cadfe85db37e)
-    (property "Reference" "C3" (at 138.43 116.84 0)
+    (property "Reference" "C31" (at 138.43 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u 35V" (at 144.78 109.22 0)
@@ -4310,7 +4310,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "C3") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
       (project "power_supply"
@@ -4324,7 +4324,7 @@
   (symbol (lib_id "Device:C_Small") (at 250.19 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69b7dc2e-61d5-4dd1-9cae-51b9ce59536a)
-    (property "Reference" "C27" (at 254 127 0)
+    (property "Reference" "C33" (at 254 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 249.555 131.445 0)
@@ -4356,7 +4356,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "C27") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -4365,7 +4365,7 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 196.85 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6dd82824-fa19-4d03-ac4f-3efb4e775c56)
-    (property "Reference" "#PWR049" (at 196.85 113.03 0)
+    (property "Reference" "#PWR061" (at 196.85 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 196.85 104.14 0)
@@ -4381,7 +4381,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -4390,7 +4390,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 66.04 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 714332ff-98d4-4a8e-857a-36db7dd39b5f)
-    (property "Reference" "#PWR042" (at 66.04 87.63 0)
+    (property "Reference" "#PWR048" (at 66.04 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 86.36 0)
@@ -4406,7 +4406,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
       (project "power_supply"
@@ -4420,7 +4420,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 248.92 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72b28ca2-59dd-4846-a33f-00096de338d7)
-    (property "Reference" "#PWR033" (at 248.92 90.17 0)
+    (property "Reference" "#PWR056" (at 248.92 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 248.92 88.9 0)
@@ -4436,7 +4436,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
       (project "power_supply"
@@ -4450,7 +4450,7 @@
   (symbol (lib_id "Device:C_Small") (at 124.46 165.1 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78724860-09ea-445d-8d68-606d8ab41bb7)
-    (property "Reference" "C38" (at 120.65 163.83 0)
+    (property "Reference" "C35" (at 120.65 163.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n 6V3" (at 118.11 167.64 0)
@@ -4468,7 +4468,7 @@
     (property "Width" "0.9" (at 124.46 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Capa 0603" (at 124.46 165.1 0)
+    (property "Description" "Capa 0402" (at 124.46 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Man." "Eurocircuit" (at 124.46 165.1 0)
@@ -4482,7 +4482,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "C38") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
       (project "power_supply"
@@ -4496,7 +4496,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 254 120.65 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f3d0dcb-3a0a-49c0-af0b-6cf70b7e9de9)
-    (property "Reference" "TP10" (at 256.54 117.348 0)
+    (property "Reference" "TP6" (at 256.54 117.348 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 256.54 118.618 0)
@@ -4515,7 +4515,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "TP10") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -4524,7 +4524,7 @@
   (symbol (lib_id "Device:L_Small") (at 137.16 68.58 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f5a8b77-5386-41b6-849d-ce0a19beb899)
-    (property "Reference" "L1" (at 137.16 62.865 90)
+    (property "Reference" "L5" (at 137.16 62.865 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "6,8u 2A" (at 137.16 65.405 90)
@@ -4556,7 +4556,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "L1") (unit 1)
+          (reference "L5") (unit 1)
         )
       )
       (project "power_supply"
@@ -4570,7 +4570,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 60.96 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8162100d-2e0d-4d35-ad7d-3eb7360a1ceb)
-    (property "Reference" "#PWR061" (at 60.96 68.58 0)
+    (property "Reference" "#PWR043" (at 60.96 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 67.31 0)
@@ -4586,7 +4586,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
       (project "power_supply"
@@ -4636,7 +4636,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 147.32 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 843a2eec-1492-4961-826b-c3be378b4e56)
-    (property "Reference" "#PWR046" (at 147.32 87.63 0)
+    (property "Reference" "#PWR052" (at 147.32 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 86.36 0)
@@ -4652,7 +4652,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
       (project "power_supply"
@@ -4666,7 +4666,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 215.9 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a1d64f0-6951-445e-b163-4934bb7a6b18)
-    (property "Reference" "#PWR031" (at 215.9 90.17 0)
+    (property "Reference" "#PWR054" (at 215.9 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 215.9 88.9 0)
@@ -4682,7 +4682,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
       (project "power_supply"
@@ -4696,7 +4696,7 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 101.6 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8aecc4a3-5105-44fe-8d21-e99c253ad5a0)
-    (property "Reference" "#PWR0109" (at 101.6 148.59 0)
+    (property "Reference" "#PWR071" (at 101.6 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 101.6 139.7 0)
@@ -4712,7 +4712,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
       (project "power_supply"
@@ -4726,7 +4726,7 @@
   (symbol (lib_id "Device:C_Small") (at 215.9 76.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d8ccbd3-96d2-479a-88e8-1a44def176d4)
-    (property "Reference" "C4" (at 212.09 74.93 0)
+    (property "Reference" "C27" (at 212.09 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1u 6V3" (at 210.82 78.74 0)
@@ -4744,7 +4744,7 @@
     (property "Width" "0.9" (at 215.9 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Capa 0603" (at 215.9 76.2 0)
+    (property "Description" "Capa 0402" (at 215.9 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Man." "Eurocircuit" (at 215.9 76.2 0)
@@ -4758,7 +4758,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "C4") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
       (project "power_supply"
@@ -4772,7 +4772,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 157.48 73.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ed50c9e-70e6-4ad3-ae4a-1cc57f925fc0)
-    (property "Reference" "C24" (at 156.21 71.12 0)
+    (property "Reference" "C25" (at 156.21 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u 6V3" (at 161.29 76.2 0)
@@ -4804,7 +4804,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "C24") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
       (project "power_supply"
@@ -4818,7 +4818,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 31.75 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90f54867-3024-485c-9814-9f5747558d2f)
-    (property "Reference" "#PWR050" (at 31.75 177.8 0)
+    (property "Reference" "#PWR075" (at 31.75 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 31.75 176.53 0)
@@ -4834,7 +4834,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
       (project "power_supply"
@@ -4848,7 +4848,7 @@
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin") (at 53.34 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 912721eb-aacb-4264-859a-b1fc11f7a44c)
-    (property "Reference" "J1" (at 44.45 104.14 0)
+    (property "Reference" "J5" (at 44.45 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MicroFit2" (at 48.26 106.68 0)
@@ -4875,7 +4875,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "J1") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
       (project "power_supply"
@@ -4889,7 +4889,7 @@
   (symbol (lib_id "power:+5V") (at 168.91 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 966ce75a-d67b-4122-af17-526d29af5651)
-    (property "Reference" "#PWR041" (at 168.91 69.85 0)
+    (property "Reference" "#PWR045" (at 168.91 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 168.91 60.96 0)
@@ -4905,7 +4905,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
       (project "power_supply"
@@ -4919,7 +4919,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 41.91 168.91 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9691930a-c1d6-4dbd-95d8-bd8604739431)
-    (property "Reference" "TP7" (at 44.45 165.608 0)
+    (property "Reference" "TP8" (at 44.45 165.608 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP - TestPoint" (at 44.45 166.878 0)
@@ -4938,7 +4938,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "TP7") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
       (project "power_supply"
@@ -4952,7 +4952,7 @@
   (symbol (lib_id "Device:R_Small") (at 236.22 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9db83b4f-d1b8-4ffa-9bcc-aae8773833fb)
-    (property "Reference" "R34" (at 233.68 126.9999 0)
+    (property "Reference" "R23" (at 233.68 126.9999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 233.68 129.5399 0)
@@ -4984,7 +4984,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "R34") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -4993,7 +4993,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 52.07 168.91 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f3ecd6c-6d98-412c-8501-2dcc07a5a92b)
-    (property "Reference" "TP8" (at 54.61 165.608 0)
+    (property "Reference" "TP9" (at 54.61 165.608 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP - TestPoint" (at 54.61 166.878 0)
@@ -5012,7 +5012,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "TP8") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
       (project "power_supply"
@@ -5026,7 +5026,7 @@
   (symbol (lib_id "power:GND") (at 161.29 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1a16fdb-bf84-4bdb-9fec-9706488888c4)
-    (property "Reference" "#PWR027" (at 161.29 143.51 0)
+    (property "Reference" "#PWR067" (at 161.29 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 161.29 142.24 0)
@@ -5042,7 +5042,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
       (project "power_supply"
@@ -5056,19 +5056,19 @@
   (symbol (lib_id "Device:C_Small") (at 130.81 119.38 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa8c0521-96a3-4f16-9857-ef28df8cc612)
-    (property "Reference" "C1" (at 125.73 116.84 0)
+    (property "Reference" "C29" (at 125.73 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470n 50V" (at 123.19 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 130.81 119.38 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 130.81 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 130.81 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Capa 0603" (at 130.81 119.38 0)
+    (property "Description" "Capa 0402" (at 130.81 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Man." "Eurocircuit" (at 130.81 119.38 0)
@@ -5088,7 +5088,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "C1") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
       (project "power_supply"
@@ -5102,7 +5102,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 124.46 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abd6e5f3-7a55-494d-b173-f0b9c2ffcd47)
-    (property "Reference" "#PWR0106" (at 124.46 176.53 0)
+    (property "Reference" "#PWR074" (at 124.46 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 175.26 0)
@@ -5118,7 +5118,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
       (project "power_supply"
@@ -5132,7 +5132,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 91.44 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acfe8fdf-896e-4e64-b941-b2fd1d07a9d8)
-    (property "Reference" "#PWR0105" (at 91.44 176.53 0)
+    (property "Reference" "#PWR072" (at 91.44 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 175.26 0)
@@ -5148,7 +5148,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
       (project "power_supply"
@@ -5162,7 +5162,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 111.76 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc3f0664-bd0e-4c24-aba3-a53a725562d2)
-    (property "Reference" "#PWR045" (at 111.76 87.63 0)
+    (property "Reference" "#PWR051" (at 111.76 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 86.36 0)
@@ -5178,7 +5178,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
       (project "power_supply"
@@ -5192,7 +5192,7 @@
   (symbol (lib_id "Device:C_Small") (at 248.92 76.2 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdca0fd8-9335-499d-9d32-ed1122bd523d)
-    (property "Reference" "C5" (at 252.73 74.93 0)
+    (property "Reference" "C28" (at 252.73 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1u 6V3" (at 254 78.74 0)
@@ -5210,7 +5210,7 @@
     (property "Width" "0.9" (at 248.92 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Capa 0603" (at 248.92 76.2 0)
+    (property "Description" "Capa 0402" (at 248.92 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Man." "Eurocircuit" (at 248.92 76.2 0)
@@ -5224,7 +5224,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "C5") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
       (project "power_supply"
@@ -5238,7 +5238,7 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 62.23 171.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be68eb12-3c41-450b-a244-801f0db374ee)
-    (property "Reference" "#PWR053" (at 62.23 167.64 0)
+    (property "Reference" "#PWR078" (at 62.23 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 62.23 176.53 0)
@@ -5254,7 +5254,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
       (project "power_supply"
@@ -5268,7 +5268,7 @@
   (symbol (lib_id "Device:R_Small") (at 204.47 114.3 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5c27d40-9f7f-4ca7-8fa1-a636d706b426)
-    (property "Reference" "R24" (at 201.93 112.395 90)
+    (property "Reference" "R20" (at 201.93 112.395 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "75R" (at 207.01 112.395 90)
@@ -5300,7 +5300,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "R24") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -5309,7 +5309,7 @@
   (symbol (lib_id "Diode:SMAJ24A") (at 176.53 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8ac6d19-5d22-417d-823a-c1575ee6b308)
-    (property "Reference" "D4" (at 178.435 115.57 90)
+    (property "Reference" "D7" (at 178.435 115.57 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TVS diode" (at 161.29 107.95 90)
@@ -5335,7 +5335,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "D4") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
       (project "power_supply"
@@ -5349,7 +5349,7 @@
   (symbol (lib_id "Device:C_Small") (at 241.3 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cbbcef5c-9b66-4c8a-93bb-dadbd34e7fb7)
-    (property "Reference" "C25" (at 245.11 127 0)
+    (property "Reference" "C32" (at 245.11 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 6V3" (at 247.65 130.81 0)
@@ -5381,7 +5381,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "C25") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -5390,7 +5390,7 @@
   (symbol (lib_id "Regulator_Switching:AP63205WU") (at 111.76 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfe06970-2373-4ed1-894c-7ac060086860)
-    (property "Reference" "U3" (at 105.41 62.23 0)
+    (property "Reference" "U4" (at 105.41 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP63205" (at 107.95 64.77 0)
@@ -5426,7 +5426,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "U3") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
       (project "power_supply"
@@ -5440,7 +5440,7 @@
   (symbol (lib_id "Device:R_Small") (at 91.44 165.1 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1c05102-c04e-4305-911e-94a959fc0bab)
-    (property "Reference" "R25" (at 88.9 166.3701 0)
+    (property "Reference" "R31" (at 88.9 166.3701 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4k7" (at 88.9 163.8301 0)
@@ -5458,7 +5458,7 @@
     (property "Width" "0.9" (at 91.44 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Res. 0603" (at 91.44 165.1 0)
+    (property "Description" "Res. 0402" (at 91.44 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Man." "Eurocircuit" (at 91.44 165.1 0)
@@ -5472,7 +5472,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "R25") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
       (project "power_supply"
@@ -5486,7 +5486,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 91.44 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d33fff85-f946-412b-a61e-33e8427b4d47)
-    (property "Reference" "#PWR018" (at 91.44 87.63 0)
+    (property "Reference" "#PWR050" (at 91.44 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 86.36 0)
@@ -5502,7 +5502,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
       (project "power_supply"
@@ -5516,7 +5516,7 @@
   (symbol (lib_id "Connector:TestPoint_Alt") (at 31.75 168.91 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d97c6dc8-d77a-47cd-b7a1-808d7251bf80)
-    (property "Reference" "TP6" (at 34.29 165.608 0)
+    (property "Reference" "TP7" (at 34.29 165.608 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP - TestPoint_Alt" (at 34.29 166.878 0)
@@ -5535,7 +5535,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "TP6") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
       (project "power_supply"
@@ -5577,7 +5577,7 @@
   (symbol (lib_name "VBUS_1") (lib_id "power:VBUS") (at 120.65 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1dafdae-8439-4e27-a857-be65119b5f92)
-    (property "Reference" "#PWR08" (at 120.65 113.03 0)
+    (property "Reference" "#PWR060" (at 120.65 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 120.65 104.14 0)
@@ -5593,7 +5593,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
       (project "power_supply"
@@ -5607,7 +5607,7 @@
   (symbol (lib_id "Device:C_Small") (at 127 71.12 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3e559d1-04cb-4f82-aa15-43858a9e1fd3)
-    (property "Reference" "C22" (at 127.0063 78.105 90)
+    (property "Reference" "C23" (at 127.0063 78.105 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n 50V" (at 127.0063 75.565 90)
@@ -5625,7 +5625,7 @@
     (property "Width" "0.9" (at 127 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Capa 0603" (at 127 71.12 0)
+    (property "Description" "Capa 0402" (at 127 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Man." "Eurocircuit" (at 127 71.12 0)
@@ -5639,7 +5639,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "C22") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
       (project "power_supply"
@@ -5653,7 +5653,7 @@
   (symbol (lib_id "Device:R_Small") (at 236.22 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5f4ca36-58a6-4c8b-a96a-d4b58199a2f1)
-    (property "Reference" "R30" (at 233.68 118.1099 0)
+    (property "Reference" "R21" (at 233.68 118.1099 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 233.68 120.6499 0)
@@ -5685,7 +5685,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "R30") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -5694,7 +5694,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 62.23 168.91 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e751b7a0-f5fa-40ba-b7f8-f1eefc81850b)
-    (property "Reference" "TP9" (at 64.77 165.608 0)
+    (property "Reference" "TP10" (at 64.77 165.608 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP - TestPoint" (at 64.77 166.878 0)
@@ -5713,7 +5713,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "TP9") (unit 1)
+          (reference "TP10") (unit 1)
         )
       )
       (project "power_supply"
@@ -5727,7 +5727,7 @@
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin") (at 58.42 71.12 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9b6a1cb-9a4e-4c0d-b27b-6f9100602ab0)
-    (property "Reference" "J5" (at 52.07 67.31 0)
+    (property "Reference" "J4" (at 52.07 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "XT30" (at 53.34 69.85 0)
@@ -5754,7 +5754,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "J5") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -5763,7 +5763,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 76.2 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed658d9a-a763-4b60-82bf-54471a411bf6)
-    (property "Reference" "#PWR043" (at 76.2 87.63 0)
+    (property "Reference" "#PWR049" (at 76.2 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 86.36 0)
@@ -5779,7 +5779,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
       (project "power_supply"
@@ -5793,7 +5793,7 @@
   (symbol (lib_name "VBUS_1") (lib_id "power:VBUS") (at 71.12 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef598225-972f-4429-8117-9abd3089d701)
-    (property "Reference" "#PWR040" (at 71.12 69.85 0)
+    (property "Reference" "#PWR044" (at 71.12 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 71.12 60.96 0)
@@ -5809,7 +5809,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
       (project "power_supply"
@@ -5823,7 +5823,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 109.22 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f050305a-1efa-4697-afab-6739ad3bd7ce)
-    (property "Reference" "#PWR0104" (at 109.22 176.53 0)
+    (property "Reference" "#PWR073" (at 109.22 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 175.26 0)
@@ -5839,7 +5839,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
       (project "power_supply"
@@ -5853,7 +5853,7 @@
   (symbol (lib_id "Diode:SMAJ24A") (at 153.67 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0a8626a-e34e-463f-96b4-4e0b1246fa13)
-    (property "Reference" "D1" (at 154.94 115.57 90)
+    (property "Reference" "D4" (at 154.94 115.57 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TVS diode" (at 156.21 119.38 90)
@@ -5879,7 +5879,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "D1") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
       (project "power_supply"
@@ -5893,7 +5893,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 60.96 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2132166-648c-4b0b-aebb-06589ea18161)
-    (property "Reference" "#PWR03" (at 60.96 115.57 0)
+    (property "Reference" "#PWR059" (at 60.96 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 114.3 0)
@@ -5909,7 +5909,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
       (project "power_supply"
@@ -5923,7 +5923,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 81.28 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f65b2243-96a3-4b6a-886d-2819d3b503e3)
-    (property "Reference" "#FLG01" (at 81.28 64.135 0)
+    (property "Reference" "#FLG06" (at 81.28 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 81.28 60.96 0)
@@ -5939,7 +5939,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG06") (unit 1)
         )
       )
       (project "power_supply"
@@ -5953,7 +5953,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 147.32 73.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f66bcc40-78e1-4acb-be4e-0e7ad21e821f)
-    (property "Reference" "C23" (at 146.05 71.12 0)
+    (property "Reference" "C24" (at 146.05 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u 6V3" (at 151.13 76.2 0)
@@ -5985,7 +5985,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "C23") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
       (project "power_supply"
@@ -5999,7 +5999,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 101.6 151.13 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f69d5112-3f9a-42c0-89bc-61aac01eaffd)
-    (property "Reference" "D7" (at 104.14 150.8125 90)
+    (property "Reference" "D8" (at 104.14 150.8125 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BAT30KFILM" (at 104.14 152.0825 90)
@@ -6031,7 +6031,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "D7") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
       (project "power_supply"
@@ -6045,7 +6045,7 @@
   (symbol (lib_id "power:GND") (at 153.67 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7ae32c8-2400-48af-8a95-24310372e388)
-    (property "Reference" "#PWR025" (at 153.67 143.51 0)
+    (property "Reference" "#PWR066" (at 153.67 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 142.24 0)
@@ -6061,7 +6061,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
       (project "power_supply"
@@ -6075,7 +6075,7 @@
   (symbol (lib_id "power:GND") (at 146.05 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd9b9231-2a2f-487e-abf2-b08d0711db00)
-    (property "Reference" "#PWR021" (at 146.05 130.81 0)
+    (property "Reference" "#PWR064" (at 146.05 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 129.54 0)
@@ -6091,7 +6091,7 @@
     (instances
       (project "elec_Ventouse_3d"
         (path "/bc05f5da-608c-4912-90e4-36b13d989976/e95ae265-6212-4dd0-9ded-65f9e093863e"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
       (project "power_supply"
