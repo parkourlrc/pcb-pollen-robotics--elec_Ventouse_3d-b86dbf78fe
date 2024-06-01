@@ -488,10 +488,6 @@
       ""
     ],
     [
-      "239737a7-c0cb-470f-b9a6-0e81d1fbfa6a",
-      "Ethercat"
-    ],
-    [
       "e95ae265-6212-4dd0-9ded-65f9e093863e",
       "Power Supply"
     ],
@@ -506,6 +502,10 @@
     [
       "b33c9ac7-90f5-4e63-982e-5431ad3597f0",
       "Driver C (link to A)"
+    ],
+    [
+      "05bb8066-d581-44dc-b14b-aad4c12e008a",
+      "Sensors"
     ]
   ],
   "text_variables": {}
