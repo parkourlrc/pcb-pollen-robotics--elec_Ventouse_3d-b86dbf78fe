@@ -5,8 +5,8 @@
   (paper "A3" portrait)
 
   (title_block
-    (title "Poulpe_3d")
-    (date "2024-05-23")
+    (title "Poulpe_2d")
+    (date "2024-06-05")
     (rev "A1")
     (company "Pollen Robotics")
   )
