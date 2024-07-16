@@ -1881,8 +1881,8 @@
     (effects (font (size 2.0066 2.0066)) (justify left bottom))
     (uuid b088e14a-2a87-440c-a033-f65020b82725)
   )
-  (text "ToDo:\n - deuxième/troisième pico2 pour mesure de température moteur ?"
-    (at 52.07 60.96 0)
+  (text "ToDo:\n - changer C29 pour une empreinte 0603 (generic capa EC)\n - deuxième/troisième pico2 pour mesure de température moteur ?"
+    (at 48.26 63.5 0)
     (effects (font (size 2.0066 2.0066)) (justify left bottom))
     (uuid b52e4b2a-5069-4170-80f9-df7d1d944a32)
   )
