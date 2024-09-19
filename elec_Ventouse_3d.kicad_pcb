@@ -18553,7 +18553,7 @@
   (gr_text "+3V3" (at 97.6 78.42 45) (layer "F.SilkS") (tstamp 92e2b280-7801-4be4-a43c-397e9f70d690)
     (effects (font (size 0.8 0.8) (thickness 0.12)) (justify left bottom))
   )
-  (gr_text "Ventouse_3d\nPCB00827-A2" (at 65.45 88.87) (layer "F.SilkS" knockout) (tstamp d4214d73-968a-4232-ba36-9ba71099e76e)
+  (gr_text "Ventouse_3d\nPCB00827-A3" (at 65.45 88.87) (layer "F.SilkS" knockout) (tstamp d4214d73-968a-4232-ba36-9ba71099e76e)
     (effects (font (size 1 1) (thickness 0.1)))
   )
   (gr_text "⏚" (at 98.1 68.02 45) (layer "F.SilkS") (tstamp f0440d3c-daef-4a6d-ad65-93f1fbb8cad3)
