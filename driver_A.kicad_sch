@@ -6,7 +6,7 @@
 
   (title_block
     (title "Poulpe_2d")
-    (date "2024-09-17")
+    (date "2024-10-25")
     (rev "A3")
     (company "Pollen Robotics")
   )
@@ -3933,7 +3933,7 @@
   )
 
   (symbol (lib_id "Device:LED") (at 153.67 219.71 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 2371e876-88fa-413b-9aa6-dc9de5c06801)
     (property "Reference" "D9" (at 156.21 218.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3947,7 +3947,7 @@
     (property "Datasheet" "~" (at 153.67 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Red LED 0603" (at 153.67 219.71 0)
+    (property "Description" "DNP - Red LED 0603" (at 153.67 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Man." "Wurth" (at 153.67 219.71 0)
@@ -3980,7 +3980,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 153.67 212.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 2809c0f8-22ef-4514-87c1-367fe68359ee)
     (property "Reference" "R40" (at 156.21 209.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3994,7 +3994,7 @@
     (property "Datasheet" "~" (at 153.67 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Res. 0402" (at 153.67 212.09 0)
+    (property "Description" "DNP - Res. 0402" (at 153.67 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Man." "Eurocircuit" (at 153.67 212.09 0)
