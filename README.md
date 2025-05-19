@@ -2,7 +2,7 @@
 
 "Ventouse_3d" is build from "Themis" as it aims on driving Orbita 3 Dofs. It is paired with boards "Poulpe_3d" that controls 3 small BLDC Motors.
 
-<img src="./docs/img/elec_Ventouse_3d.png" alt="3d view" width="400"/>
+<img src="./docs/img/elec_ventouse_3d.png" alt="3d view" width="400"/>
 
 ## Basically
  - Primarly designed for Reachy 2 gamma.
