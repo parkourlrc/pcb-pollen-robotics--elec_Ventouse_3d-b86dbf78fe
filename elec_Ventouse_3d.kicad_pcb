@@ -9277,6 +9277,19 @@
 				)
 			)
 		)
+		(property "FT Position Offset" "0.0,-2.3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7703d81-866d-4789-80e8-72fe570db228")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/2d1b6d9b-35c6-4257-babe-ed7f6484c4a7/bb698bdb-8a92-4b70-bda2-76b0577e4d7d")
 		(sheetname "/Driver B (link to A)/")
@@ -14366,6 +14379,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a7c1569-1ded-4944-a04e-5f1620ed15e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Position Offset" "0.0,-2.3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31978cd7-dab6-4c5d-91bf-b7118b99f5a8")
 			(effects
 				(font
 					(size 1 1)
@@ -23119,6 +23145,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d841c7c6-aef8-4f06-b36d-6fd3067ec687")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Position Offset" "0.0,-2.3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffb3a8e3-c400-41a9-bccf-4a4381c32781")
 			(effects
 				(font
 					(size 1 1)
