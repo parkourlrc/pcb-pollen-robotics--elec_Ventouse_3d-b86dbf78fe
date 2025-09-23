@@ -1,5 +1,8 @@
 # Pollen-specific
-fab/
+#fab/
+fab/.old/*
+production/
+fabrication-toolkit-options.json
 
 # Temporary files
 *.000
@@ -26,5 +29,5 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
+#*.csv
 
